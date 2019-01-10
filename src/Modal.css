@@ -1,0 +1,97 @@
+.shade {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.modal {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    text-align: center;
+
+}
+.modalTextHeaders{
+    background: -moz-linear-gradient(to right top, #1b3705, #37600e, #588c14, #7ebb16, #a8eb12);
+    background: -webkit-linear-gradient(to right top, #1b3705, #37600e, #588c14, #7ebb16, #a8eb12);
+    background: linear-gradient(to right top, #1b3705, #37600e, #588c14, #7ebb16, #a8eb12);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#1b3705, endColorstr=#a8eb12,GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: initial;
+}
+.modalTextUnderHeaders{
+    background: -moz-linear-gradient(to right top, #1b3705, #37600e, #588c14, #7ebb16, #a8eb12);
+    background: -webkit-linear-gradient(to right top, #1b3705, #37600e, #588c14, #7ebb16, #a8eb12);
+    background: linear-gradient(to right top, #1b3705, #37600e, #588c14, #7ebb16, #a8eb12);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#1b3705, endColorstr=#a8eb12,GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: initial;
+    font-family: Calibri;
+}
+
+.modalContainer{
+    height:100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.modalBtn {
+    margin-top: calc(50% + 25px);
+    position: relative;
+    display: inline-block;
+    width: 277px;
+    height: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration:none;
+    font-family: 'Roboto', sans-serif;
+    font-weight:900;
+    font-size:17px;
+    letter-spacing: 0.045em;
+}
+
+.modalBtn svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.modalBtn svg rect {
+//stroke: #EC0033;
+    stroke-width: 4;
+    stroke-dasharray: 353, 0;
+    stroke-dashoffset: 0;
+    -webkit-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+
+.modalBtn span{
+
+    background: -moz-linear-gradient(to right top, #1b3705, #37600e, #588c14, #7ebb16, #a8eb12);
+    background: -webkit-linear-gradient(to right top, #1b3705, #37600e, #588c14, #7ebb16, #a8eb12);
+    background: linear-gradient(to right top, #1b3705, #37600e, #588c14, #7ebb16, #a8eb12);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#1b3705, endColorstr=#a8eb12,GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.modalBtn:hover svg rect {
+    stroke-width: 4;
+    stroke-dasharray: 196, 543;
+    stroke-dashoffset: 437;
+}
+
+
